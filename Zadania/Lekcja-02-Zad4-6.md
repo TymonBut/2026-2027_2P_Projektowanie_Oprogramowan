@@ -592,7 +592,7 @@ Można zapisywać temperaturę w dziesiątych częściach stopnia jako `short`:
 
 
 
-\*\*Przykład: system biblioteczny\*\*
+**Przykład: system biblioteczny**
 
 
 
@@ -623,6 +623,8 @@ Można zapisywać temperaturę w dziesiątych częściach stopnia jako `short`:
 | `kara`               | `BigDecimal` | 0 i wartości dodatnie | Dokładne przechowywanie kwot.            |
 
 | `numer\_polki`        | `String`     | tekst                 | Oznaczenie może zawierać litery i cyfry. |
+
+Robiłem razem [link do repozytorium](https://github.com/1nnonlyy/Websites/tree/main/elektronik-2p)
 
 
 
