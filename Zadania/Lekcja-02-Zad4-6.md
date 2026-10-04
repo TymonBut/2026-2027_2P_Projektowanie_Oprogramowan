@@ -23,52 +23,37 @@
 ## Ćwiczenie 4.2 – Skrócone obliczanie
 
 
-
 ### a)
 
 
-
-Gdy `lista == null`, pierwszy warunek jest fałszywy. Dzięki `\&\&` drugi warunek nie jest sprawdzany. Całość daje `false`.
-
+Gdy lista == null, pierwszy warunek jest fałszywy. Dzięki && drugi warunek nie jest sprawdzany. Całość daje false.
 
 
 ### b)
 
 
-
-Po zamianie warunków program spróbuje wykonać `lista.size()` dla `null`, więc wystąpi `NullPointerException`.
-
+Po zamianie warunków program spróbuje wykonać lista.size() dla null, więc wystąpi NullPointerException.
 
 
 ### c)
 
-
-
 ```java
 
-if (lista == null || lista.size() == 0) {
-
-&#x20;   ...
-
-}
+if (lista == null || lista.size() == 0) {  ... }
 
 ```
 
-
-
 ## Ćwiczenie 4.3 – Kody znaków
 
+a) 68
 
+b) 122
 
-a) `68`
+c) J
 
-b) `122`
+d) 7
 
-c) `J`
-
-d) `7`
-
-e) `A`
+e) A
 
 
 
@@ -80,13 +65,13 @@ e) `A`
 
 funkcja naMalaLitera(znak):
 
-&#x20;   jeżeli kod(znak) >= kod('A') i kod(znak) <= kod('Z'):
+jeżeli kod(znak) >= kod('A') i kod(znak) <= kod('Z'):
 
-&#x20;       zwróć znak o kodzie kod(znak) + 32
+zwróć znak o kodzie kod(znak) + 32
 
-&#x20;   w przeciwnym razie:
+w przeciwnym razie:
 
-&#x20;       zwróć znak
+zwróć znak
 
 ```
 
@@ -96,17 +81,17 @@ funkcja naMalaLitera(znak):
 
 
 
-a) \*\*F\*\* – ASCII jest 7-bitowe i definiuje 128 znaków.
+a) **F** – ASCII jest 7-bitowe i definiuje 128 znaków.
 
-b) \*\*F\*\* – Unicode definiuje punkty kodowe znaków, a UTF-8 jest sposobem ich kodowania.
+b) **F** – Unicode definiuje punkty kodowe znaków, a UTF-8 jest sposobem ich kodowania.
 
-c) \*\*P\*\*
+c) **P**
 
-d) \*\*F\*\* – znak w UTF-8 zajmuje od 1 do 4 bajtów.
+d) **F** – znak w UTF-8 zajmuje od 1 do 4 bajtów.
 
-e) \*\*P\*\*
+e) **P**
 
-f) \*\*F\*\* – emoji można zapisywać w UTF-8.
+f) **F** – emoji można zapisywać w UTF-8.
 
 
 
@@ -118,7 +103,7 @@ f) \*\*F\*\* – emoji można zapisywać w UTF-8.
 
 
 
-Mojibake, czyli „krzaczki”.
+Błędną interpretacją kodowania znaków (problem z kodowaniem znaków).
 
 
 
@@ -133,14 +118,9 @@ Nie. Dane zwykle nie zostały uszkodzone, tylko odczytano je przy użyciu niewł
 ### c)
 
 
+w pliku HTML: `<meta charset="UTF-8">`,
 
-Problemy z kodowaniem można rozwiązać m.in. poprzez:
-
-
-
-deklarację kodowania HTML: `<meta charset="UTF-8">`,
-
-odpowiedni nagłówek HTTP `Content-Type`,
+W nagłówkach HTTP serwera:`Content-Type`,
 
 używanie właściwego kodowania przy odczycie i zapisie plików.
 
@@ -158,17 +138,13 @@ używanie właściwego kodowania przy odczycie i zapisie plików.
 
 | `Zażółć`   |             6 |             9 |
 
-| `cześć ` |             7 |            10 |
+| `cześć :)` |             7 |            10 |
 
 
 
 `len()` liczy znaki, natomiast `len(tekst.encode("utf-8"))` liczy bajty.
 
-
-
 W UTF-8:
-
-
 
 zwykłe znaki ASCII zajmują 1 bajt,
 
@@ -199,7 +175,7 @@ d) `a`
 
 e) `"Progra"`
 
-f) `2`
+f) `6`
 
 
 
@@ -210,9 +186,7 @@ f) `2`
 ### a)
 
 
-
 Wystąpi `TypeError`, ponieważ `str` w Pythonie jest niemutowalny.
-
 
 
 ### b)
@@ -223,14 +197,11 @@ Wystąpi `TypeError`, ponieważ `str` w Pythonie jest niemutowalny.
 
 tekst = "kot"
 
-tekst = "b" + tekst\[1:]
+tekst = "bot"
 
 ```
 
-
-
 ### c)
-
 
 
 Powstają dwa obiekty `str`: `"kot"` i `"bot"`.
@@ -243,30 +214,21 @@ Powstają dwa obiekty `str`: `"kot"` i `"bot"`.
 
 ### a)
 
-
-
 ```text
 
-\[A]\[l]\[a]\[\\0]
+[A][l][a][\0]
 
 ```
-
-
 
 ### b)
 
-
-
 ```text
 
-\[3]\[A]\[l]\[a]
+[3][A][l][a]
 
 ```
 
-
-
 Szybciej długość odczytuje wersja z zapisaną długością, ponieważ długość znajduje się bezpośrednio w pamięci.
-
 
 
 ## Ćwiczenie 5.4 – Wydajność
@@ -624,7 +586,7 @@ Można zapisywać temperaturę w dziesiątych częściach stopnia jako `short`:
 
 | `numer\_polki`        | `String`     | tekst                 | Oznaczenie może zawierać litery i cyfry. |
 
-Robiłem razem [link do repozytorium](https://github.com/1nnonlyy/Websites/tree/main/elektronik-2p)
+Robiłem razem z [link do repozytorium](https://github.com/1nnonlyy/Websites/tree/main/elektronik-2p)
 
 
 
