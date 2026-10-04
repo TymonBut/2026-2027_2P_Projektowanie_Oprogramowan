@@ -92,7 +92,7 @@ funkcja naMalaLitera(znak):
 
 
 
-\## Ćwiczenie 4.5 – ASCII a Unicode
+## Ćwiczenie 4.5 – ASCII a Unicode
 
 
 
@@ -110,11 +110,11 @@ f) \*\*F\*\* – emoji można zapisywać w UTF-8.
 
 
 
-\## Ćwiczenie 4.6 – Mojibake
+## Ćwiczenie 4.6 – Mojibake
 
 
 
-\### a)
+### a)
 
 
 
@@ -122,7 +122,7 @@ Mojibake, czyli „krzaczki”.
 
 
 
-\### b)
+### b)
 
 
 
@@ -130,7 +130,7 @@ Nie. Dane zwykle nie zostały uszkodzone, tylko odczytano je przy użyciu niewł
 
 
 
-\### c)
+### c)
 
 
 
@@ -138,15 +138,15 @@ Problemy z kodowaniem można rozwiązać m.in. poprzez:
 
 
 
-\* deklarację kodowania HTML: `<meta charset="UTF-8">`,
+deklarację kodowania HTML: `<meta charset="UTF-8">`,
 
-\* odpowiedni nagłówek HTTP `Content-Type`,
+odpowiedni nagłówek HTTP `Content-Type`,
 
-\* używanie właściwego kodowania przy odczycie i zapisie plików.
+używanie właściwego kodowania przy odczycie i zapisie plików.
 
 
 
-\## Ćwiczenie 4.7 – Bajty w praktyce
+## Ćwiczenie 4.7 – Bajty w praktyce
 
 
 
@@ -170,23 +170,18 @@ W UTF-8:
 
 
 
-\* zwykłe znaki ASCII zajmują 1 bajt,
+zwykłe znaki ASCII zajmują 1 bajt,
 
-\* polskie znaki diakrytyczne zajmują 2 bajty,
+polskie znaki diakrytyczne zajmują 2 bajty,
 
-\* emoji zajmuje 4 bajty.
-
-
-
-\---
+emoji zajmuje 4 bajty.
 
 
-
-\# Lekcja 5. Typ łańcuchowy
+# Lekcja 5. Typ łańcuchowy
 
 
 
-\## Ćwiczenie 5.1 – Indeksowanie
+## Ćwiczenie 5.1 – Indeksowanie
 
 
 
@@ -208,11 +203,11 @@ f) `2`
 
 
 
-\## Ćwiczenie 5.2 – Niemutowalność
+## Ćwiczenie 5.2 – Niemutowalność
 
 
 
-\### a)
+### a)
 
 
 
@@ -220,7 +215,7 @@ Wystąpi `TypeError`, ponieważ `str` w Pythonie jest niemutowalny.
 
 
 
-\### b)
+### b)
 
 
 
@@ -234,7 +229,7 @@ tekst = "b" + tekst\[1:]
 
 
 
-\### c)
+### c)
 
 
 
@@ -242,11 +237,11 @@ Powstają dwa obiekty `str`: `"kot"` i `"bot"`.
 
 
 
-\## Ćwiczenie 5.3 – Reprezentacja w pamięci
+## Ćwiczenie 5.3 – Reprezentacja w pamięci
 
 
 
-\### a)
+### a)
 
 
 
@@ -258,7 +253,7 @@ Powstają dwa obiekty `str`: `"kot"` i `"bot"`.
 
 
 
-\### b)
+### b)
 
 
 
@@ -274,11 +269,11 @@ Szybciej długość odczytuje wersja z zapisaną długością, ponieważ długo�
 
 
 
-\## Ćwiczenie 5.4 – Wydajność
+## Ćwiczenie 5.4 – Wydajność
 
 
 
-\### a)
+### a)
 
 
 
@@ -298,7 +293,7 @@ wynik = "".join(str(i) for i in range(100000))
 
 
 
-\### c)
+### c)
 
 
 
@@ -306,7 +301,7 @@ W Javie do wydajnego tworzenia zmiennych napisów można użyć `StringBuilder`.
 
 
 
-\## Ćwiczenie 5.5 – Parsowanie danych
+## Ćwiczenie 5.5 – Parsowanie danych
 
 
 
@@ -340,7 +335,7 @@ Kowalski
 
 
 
-\## Ćwiczenie 5.6 – Porównywanie
+## Ćwiczenie 5.6 – Porównywanie
 
 
 
@@ -374,11 +369,11 @@ Nie jest to polski porządek alfabetyczny. Należy zastosować porównywanie zgo
 
 
 
-\# Lekcja 6. Dobór typu prostego do problemu programistycznego
+# Lekcja 6. Dobór typu prostego do problemu programistycznego
 
 
 
-\## Ćwiczenie 6.1 – Formularz rejestracyjny
+## Ćwiczenie 6.1 – Formularz rejestracyjny
 
 
 
@@ -404,7 +399,7 @@ Nie jest to polski porządek alfabetyczny. Należy zastosować porównywanie zgo
 
 
 
-\## Ćwiczenie 6.2 – Sklep internetowy
+## Ćwiczenie 6.2 – Sklep internetowy
 
 
 
@@ -428,11 +423,11 @@ Nie jest to polski porządek alfabetyczny. Należy zastosować porównywanie zgo
 
 
 
-\## Ćwiczenie 6.3 – Znajdź błąd
+## Ćwiczenie 6.3 – Znajdź błąd
 
 
 
-\### a)
+### a)
 
 
 
@@ -440,11 +435,11 @@ Nie jest to polski porządek alfabetyczny. Należy zastosować porównywanie zgo
 
 
 
-\*\*Poprawka:\*\* `BigDecimal`.
+Poprawka:`BigDecimal`.
 
 
 
-\### b)
+### b)
 
 
 
@@ -460,7 +455,7 @@ String numer\_telefonu = "501234567";
 
 
 
-\### c)
+### c)
 
 
 
@@ -468,11 +463,11 @@ String numer\_telefonu = "501234567";
 
 
 
-\*\*Poprawka:\*\* `int`.
+Poprawka: `int`.
 
 
 
-\### d)
+### d)
 
 
 
@@ -480,15 +475,15 @@ String numer\_telefonu = "501234567";
 
 
 
-\### e)
+### e)
 
 
 
-`char` jest technicznie poprawny dla `'K'` i `'M'`. W większej aplikacji lepszy może być `enum`.
+`char` jest technicznie poprawny dla `'K'` i `'M'`.
 
 
 
-\### f)
+### f)
 
 
 
@@ -504,11 +499,11 @@ String kod\_pocztowy = "50-137";
 
 
 
-\## Ćwiczenie 6.4 – Sensor temperatury
+## Ćwiczenie 6.4 – Sensor temperatury
 
 
 
-\### a)
+### a)
 
 
 
@@ -520,7 +515,7 @@ Można użyć `float` albo `double`.
 
 
 
-\### b)
+### b)
 
 
 
@@ -536,11 +531,11 @@ Liczba odczytów w ciągu roku:
 
 
 
-\### c)
+### c)
 
 
 
-\*\*`float`:\*\*
+`float`:
 
 
 
@@ -552,7 +547,7 @@ Liczba odczytów w ciągu roku:
 
 
 
-\*\*`double`:\*\*
+`double`:
 
 
 
@@ -564,7 +559,7 @@ Liczba odczytów w ciągu roku:
 
 
 
-\### d)
+### d)
 
 
 
@@ -593,8 +588,7 @@ Można zapisywać temperaturę w dziesiątych częściach stopnia jako `short`:
 ```
 
 
-
-\## Ćwiczenie 6.5 – Zadanie zespołowe
+## Ćwiczenie 6.5 – Zadanie zespołowe
 
 
 
