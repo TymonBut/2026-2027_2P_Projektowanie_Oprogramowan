@@ -1,8 +1,8 @@
-\# Lekcja 4. Typ logiczny i znakowy. Kodowanie znaków
+# Lekcja 4. Typ logiczny i znakowy. Kodowanie znaków
 
 
 
-\## Ćwiczenie 4.1 – Tablica prawdy
+## Ćwiczenie 4.1 – Tablica prawdy
 
 
 
@@ -20,11 +20,11 @@
 
 
 
-\## Ćwiczenie 4.2 – Skrócone obliczanie
+## Ćwiczenie 4.2 – Skrócone obliczanie
 
 
 
-\### a)
+### a)
 
 
 
@@ -32,7 +32,7 @@ Gdy `lista == null`, pierwszy warunek jest fałszywy. Dzięki `\&\&` drugi warun
 
 
 
-\### b)
+### b)
 
 
 
@@ -40,7 +40,7 @@ Po zamianie warunków program spróbuje wykonać `lista.size()` dla `null`, wię
 
 
 
-\### c)
+### c)
 
 
 
@@ -56,7 +56,7 @@ if (lista == null || lista.size() == 0) {
 
 
 
-\## Ćwiczenie 4.3 – Kody znaków
+## Ćwiczenie 4.3 – Kody znaków
 
 
 
@@ -72,7 +72,7 @@ e) `A`
 
 
 
-\## Ćwiczenie 4.4 – Zamiana wielkości liter
+## Ćwiczenie 4.4 – Zamiana wielkości liter
 
 
 
